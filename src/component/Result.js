@@ -1,16 +1,16 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import "./Display.css";
+import "./Result.css";
 
-export default class Display extends React.Component {
+export default class Result extends React.Component {
   static propTypes = {
     value: PropTypes.string,
   };
 
   render() {
     return (
-      <div className="component-display">
+      <div className="component-result">
         <div>{this.props.value}</div>
       </div>
     );
