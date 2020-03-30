@@ -1,6 +1,14 @@
 
 ## First React project created for learning purpose. 
 This is a simple approach of building a calculator with ReactJS.
+### Basic Workflow:
+1. In the src folder, there is a directory called components, that’s where all the code for our component goes.
+
+2. The calculator application is divided into two main components. App.js is the parent component which renders the child components which are: our result component where the output is displayed and the other is a button panel. 
+
+3. The button panel is further divided into different buttons and the onclick functions they trigger. The onclick function simply reads the argument, which is the name of the button clicked, and changes the state appropriately depending on the input that is being passed.
+
+4. Code for all the mathematical manipulations involved in calculations is written in the src/logic directory.
 
 ### Available Scripts
 The project was created using the command:
